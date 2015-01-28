@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"> </script>
+	<![endif] -->
+
+	<script type="text/javascript"><!-- fix drop down menu on Ipad and Iphone -->
+		$('a').live('touchend', function(e) {
+	    var el = $(this);
+	    var link = el.attr('href');
+	    window.location = link;
+	});
+	</script>
+
+	<title>Weather Wear | Always Prepped for the Weather</title>
+	<link rel="stylesheet" href="globalfilter.css" media="all" >
+	<link href="/lightbox/css/lightbox.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+
+	<script src="/lightbox/js/jquery-1.11.0.min.js"></script>
+	<script src="/lightbox/js/lightbox.min.js"></script>
+
+</head>
+
+<body id="prowl-filtering">
+	<div class="page_wrap">
+
+		<header> </header>
+
+		<nav>
+			<div id="logo">
+				Weather Wear
+			</div>
+
+			<div class="navigation">
+				<ul>
+	                <li><a href="#">Share</a></li>
+	                <li><a href="#">Dress Me!</a></li>
+	                <li><a href="#">Calendar</a></li>
+	        		<li><a href="#">Home</a>
+				</ul>
+			</div>
+		</nav>
+             
+        
+
+			<div class="content">
+				<div id="city">
+					La Jolla, CA
+
+				</div>
+				<div id="weather-info">
+					Low: 48&#176;F High: 76&#176;F<br>
+					Wind: 7 mph NE
+
+				</div>
+			</div>
+            
+             <div id="temperature">
+             	 <!--temperature here-->
+             	 65&#176;F
+
+    		</div>
+            
+            
+            
+            
+            
+            
+            
+            
+
+		<footer><!--copyright here--></footer>
+
+	</div>
+</body>
+</html>
